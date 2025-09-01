@@ -54,7 +54,7 @@ const navLinks = document.querySelectorAll('.nav-links a');
 
 function setActiveLink() {
     let current = '';
-    
+
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
